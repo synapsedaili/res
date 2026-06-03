@@ -1,0 +1,1 @@
+Report generation error: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
