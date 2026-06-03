@@ -1,1 +1,1 @@
-Report generation error: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+Report generation error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)
