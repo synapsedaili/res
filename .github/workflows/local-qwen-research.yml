@@ -1,0 +1,53 @@
+name: Yerel Qwen ile Günlük Araştırma
+
+on:
+  schedule:
+    # Her gün Türkiye saatiyle 09:00'da (UTC 06:00) çalışır
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Manuel test için
+
+jobs:
+  local-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15 # Model indirme + analiz max 5-6 dakika sürer
+
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Ollama'yı İndir ve Kur (Yerel Qwen için)
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # Ollama'yı arka planda başlat
+          ollama serve &
+          sleep 5 # Servisin ayağa kalkması için bekle
+
+      - name: Qwen Modelini İndir
+        run: |
+          # 3B parametreli versiyon 7GB RAM limitinde güvenle çalışır.
+          # Qwen3 çıktığında burayı 'qwen3:3b' olarak güncelleyebilirsin.
+          ollama pull qwen3
+
+      - name: Bağımlılıkları Yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Araştırma Botunu Çalıştır
+        run: python research_agent.py
+
+      - name: Raporu GitHub'a Kaydet (Commit & Push)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add raporlar/
+          git diff --staged --quiet || git commit -m "🤖 Yerel Qwen ile günlük araştırma raporu oluşturuldu [skip ci]"
+          git push
+
