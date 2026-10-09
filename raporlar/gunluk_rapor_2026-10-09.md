@@ -1,0 +1,9 @@
+# Daily Deep Web AI Data Mining Report (Raw Data Fallback)
+**Date:** 09.10.2026
+**Topic:** Niche open-source datasets for specialized industries
+
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: Find Open Datasets and Machine Learning Projects | Kaggle | BODY: Browse and download hundreds of thousands of open datasets for AI research, model training, and analysis. Join a community of millions of researchers, developers, and builders to share and collaborate on Kaggle.
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: Cybersecurity Attacks & Defense Dataset 2026 - Kaggle | BODY: Cybersecurity Threat Intelligence Dataset 2026 What is this dataset? I built this dataset because I couldn't find a single place that had clean, real-world cybersecurity threat data ready for machine learning. Most datasets out there are either outdated, synthetic, or missing key fields. So I collected it myself — directly from AlienVault OTX, CISA, and NVD — cleaned it, and made it public.
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: Kaggle Notebooks | BODY: Explore and run AI code in free cloud notebooks with GPUs. Access public datasets, share your work, and collaborate with a community of millions of AI builders.
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: Football Players Stats (2026-2027) - Kaggle | BODY: The dataset is designed to be continuously updated during the 2026-2027 season, making it suitable for ongoing football analytics, player comparison, scouting, visualization, machine learning, and sports data projects.
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: AIST4010-Fall2026-A0 | Kaggle | BODY: This is a non-grading assignment for you to get familiar with kaggle
