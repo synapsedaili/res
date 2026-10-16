@@ -1,0 +1,9 @@
+# Daily Deep Web AI Data Mining Report (Raw Data Fallback)
+**Date:** 16.10.2026
+**Topic:** Niche open-source datasets for specialized industries
+
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: Find Open Datasets and Machine Learning Projects | Kaggle | BODY: Browse and download hundreds of thousands of open datasets for AI research, model training, and analysis. Join a community of millions of researchers, developers, and builders to share and collaborate on Kaggle.
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: Cybersecurity Attacks & Defense Dataset 2026 - Kaggle | BODY: Cybersecurity Threat Intelligence Dataset 2026 What is this dataset? I built this dataset because I couldn't find a single place that had clean, real-world cybersecurity threat data ready for machine learning. Most datasets out there are either outdated, synthetic, or missing key fields. So I collected it myself — directly from AlienVault OTX, CISA, and NVD — cleaned it, and made it public.
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: NEXUS OptiML 2026-Operation Insight - Kaggle | BODY: Decode the Data. Predict the Outcome NEXUS OptiML 2026-Operation Insight Decode the Data. Predict the Outcome
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: amazon ml challenge 2026 - Kaggle | BODY: Discover what actually works in AI. Join millions of builders, researchers, and labs evaluating agents, models, and frontier technology through crowdsourced benchmarks, competitions, and hackathons.
+QUERY: niche open source dataset 2026 site:reddit.com OR site:kaggle.com | TITLE: NEXUS OptiML 2026-Operation Insight - Kaggle | BODY: NEXUS OptiML 2026-Operation Insight Decode the Data. Predict the Outcome
